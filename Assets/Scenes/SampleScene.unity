@@ -150,9 +150,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 249b8986e35ab4dc3b16b714e5ab5790, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameTickLengthInSec: 1
-  fieldWidth: 10
-  fieldHeight: 10
+  gameTickLengthInSec: 0.5
+  fieldWidth: 20
+  fieldHeight: 20
   distance: 0.1
   camera: {fileID: 963194227}
   cube: {fileID: 501061615861871114, guid: df013c3f660514cb193e715ec670ec27, type: 3}
@@ -243,7 +243,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.802082

@@ -23,8 +23,10 @@ public class GameController : MonoBehaviour
 
     private float _timePassed = 0;
     private bool _isPaused = false;
+    private bool _isEnd = false;
     private GameBoard _board;
     private Vector2 _direction = Vector2.left;
+    private int _topScores = 0;
 
     private void Awake()
     {
@@ -35,10 +37,11 @@ public class GameController : MonoBehaviour
     void Start()
     {
         var size = cube.GetComponent<Renderer>().bounds.size.x;
-        _board = new GameBoard(fieldWidth, fieldHeight, 3);
-
         gameBoardView.InitView(cube, fieldWidth, fieldHeight, size + distance);
-        gameBoardView.SetBoardState(_board.Field);
+
+        _topScores = PlayerPrefs.GetInt(nameof(_board.TimesScored), 0);
+
+        Restart();
 
         if (camera.orthographic)
         {
@@ -51,10 +54,9 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!_isPaused)
+        HandleInput();
+        if (!_isPaused && !_isEnd)
         {
-            HandleInput();
-
             _timePassed += Time.deltaTime;
             if (_timePassed >= gameTickLengthInSec)
             {
@@ -74,6 +76,46 @@ public class GameController : MonoBehaviour
             _direction = Vector2.left;
         else if (Input.GetKeyUp(KeyCode.D))
             _direction = Vector2.right;
+
+        else if (Input.GetKeyUp(KeyCode.Escape))
+            SetPause(!_isPaused);
+
+        else if (Input.GetKeyUp(KeyCode.R))
+            Restart();
+    }
+
+    private void Restart()
+    {
+        _board = new GameBoard(fieldWidth, fieldHeight, 3);
+        gameBoardView.SetBoardState(_board.Field);
+        _isPaused = false;
+        _timePassed = 0;
+    }
+
+    private void OnDestroy()
+    {
+        SaveTopScores();
+    }
+
+    private void OnApplicationPause(bool pauseStatus)
+    {
+        if (pauseStatus)
+            SaveTopScores();
+    }
+
+    private void SaveTopScores()
+    {
+        if (_board.TimesScored > _topScores)
+        {
+            PlayerPrefs.SetInt(nameof(_board.TimesScored), _board.TimesScored);
+            PlayerPrefs.Save();
+        }
+    }
+
+    private void SetPause(bool isPaused)
+    {
+        _isPaused = isPaused;
+
     }
 
     private void PerformGameTick()
@@ -82,6 +124,6 @@ public class GameController : MonoBehaviour
         var moved = _board.MoveSnake(_direction);
         gameBoardView.SetBoardState(_board.Field);
 
-        if (!moved) _isPaused = true;
+        if (!moved) _isEnd = true;
     }
 }

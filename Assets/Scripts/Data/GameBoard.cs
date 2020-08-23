@@ -8,6 +8,8 @@ using Random = UnityEngine.Random;
 internal class GameBoard
 {
     internal readonly GameCell[,] Field;
+    internal int TimesScored { get; private set; }
+
     private readonly Snake _snake;
     private Vector2 _snakeDirection = Vector2.zero;
     private Vector2 _targetPosition;
@@ -15,6 +17,7 @@ internal class GameBoard
     internal GameBoard(int width, int height, int initSnakeSize)
     {
         Field = new GameCell[width, height];
+        TimesScored = 0;
 
         Vector2[] snakeCells = GetSnakeInitCells(width, height, initSnakeSize);
         _snake = new Snake(snakeCells);
@@ -50,6 +53,7 @@ internal class GameBoard
 
         if (_snake.Head == _targetPosition)
         {
+            TimesScored++;
             PlaceTargetOnBoard();
         }
 
