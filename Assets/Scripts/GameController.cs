@@ -53,14 +53,7 @@ public class GameController : MonoBehaviour
     {
         if (!_isPaused)
         {
-            if (Input.GetKeyUp(KeyCode.W))
-                _direction = Vector2.up;
-            else if (Input.GetKeyUp(KeyCode.S))
-                _direction = Vector2.down;
-            else if (Input.GetKeyUp(KeyCode.A))
-                _direction = Vector2.left;
-            else if (Input.GetKeyUp(KeyCode.D))
-                _direction = Vector2.right;
+            HandleInput();
 
             _timePassed += Time.deltaTime;
             if (_timePassed >= gameTickLengthInSec)
@@ -69,6 +62,18 @@ public class GameController : MonoBehaviour
                 PerformGameTick();
             }
         }
+    }
+
+    private void HandleInput()
+    {
+        if (Input.GetKeyUp(KeyCode.W))
+            _direction = Vector2.up;
+        else if (Input.GetKeyUp(KeyCode.S))
+            _direction = Vector2.down;
+        else if (Input.GetKeyUp(KeyCode.A))
+            _direction = Vector2.left;
+        else if (Input.GetKeyUp(KeyCode.D))
+            _direction = Vector2.right;
     }
 
     private void PerformGameTick()

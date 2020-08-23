@@ -7,7 +7,8 @@ using UnityEngine;
 internal class GameBoard
 {
     internal readonly GameCell[,] Field;
-    private Snake _snake;
+    private readonly Snake _snake;
+    private Vector2 _snakeDirection = Vector2.zero;
 
     internal GameBoard(int width, int height, int initSnakeSize)
     {
@@ -31,7 +32,9 @@ internal class GameBoard
 
     internal bool MoveSnake(Vector2 direction)
     {
-        var nextCellPos = _snake.Head + direction;
+        var dir = direction + _snakeDirection == Vector2.zero ? _snakeDirection : direction;
+
+        var nextCellPos = _snake.Head + dir;
         if (nextCellPos.x < 0 || nextCellPos.x >= Field.GetLength(0) ||
             nextCellPos.y < 0 || nextCellPos.y >= Field.GetLength(1))
         {
@@ -53,6 +56,7 @@ internal class GameBoard
             return false;
         }
 
+        _snakeDirection = dir;
         return true;
     }
 
