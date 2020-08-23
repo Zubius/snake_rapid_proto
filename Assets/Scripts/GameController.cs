@@ -75,24 +75,24 @@ public class GameController : MonoBehaviour
 
     private void HandleInput()
     {
-        // #if UNITY_EDITOR || UNITY_STANDALONE
-        // if (Input.GetKeyUp(KeyCode.W))
-        //     _direction = Vector2.up;
-        // else if (Input.GetKeyUp(KeyCode.S))
-        //     _direction = Vector2.down;
-        // else if (Input.GetKeyUp(KeyCode.A))
-        //     _direction = Vector2.left;
-        // else if (Input.GetKeyUp(KeyCode.D))
-        //     _direction = Vector2.right;
-        //
-        // else if (Input.GetKeyUp(KeyCode.Space))
-        //     SetPause(!_isPaused);
-        //
-        // else if (Input.GetKeyUp(KeyCode.R))
-        //     Restart();
-        // #elif UNITY_IOS || UNITY_ANDROID
+        #if UNITY_EDITOR || UNITY_STANDALONE
+        if (Input.GetKeyUp(KeyCode.W))
+            _direction = Vector2.up;
+        else if (Input.GetKeyUp(KeyCode.S))
+            _direction = Vector2.down;
+        else if (Input.GetKeyUp(KeyCode.A))
+            _direction = Vector2.left;
+        else if (Input.GetKeyUp(KeyCode.D))
+            _direction = Vector2.right;
+
+        else if (Input.GetKeyUp(KeyCode.Space))
+            SetPause(!_isPaused);
+
+        else if (Input.GetKeyUp(KeyCode.R))
+            Restart();
+        #elif UNITY_IOS || UNITY_ANDROID
             _direction = drags.Direction;
-        // #endif
+        #endif
     }
 
     public void StartButtonClicked()

@@ -10,815 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1251a6e7-12c2-4566-baf2-42ac5b8ba21c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/View/DragController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/View/DragController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/CrashReporter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/CrashReporter.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/DynamicLibEngineAPI-functions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/DynamicLibEngineAPI.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Assembly-CSharp.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Assembly-CSharp_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods10.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods11.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods12.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods13.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods14.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods15.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods16.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods17.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods18.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods19.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods20.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods21.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods22.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods23.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods24.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods25.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods26.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods27.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods28.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods29.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods30.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods31.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods32.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods33.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods34.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods35.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods36.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods37.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods38.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods39.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods5.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods6.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods7.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods8.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/GenericMethods9.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics10.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics11.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics12.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics13.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics14.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics15.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics16.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics17.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics18.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics19.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics20.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics21.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics22.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics23.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics24.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics25.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics26.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics27.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics28.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics29.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics30.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics31.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics32.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics5.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics6.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics7.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics8.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Generics9.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Il2CppAttributes.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Il2CppCodeRegistration.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Il2CppCompilerCalculateTypeValues.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Il2CppCompilerCalculateTypeValues1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Il2CppCompilerCalculateTypeValuesTable.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Il2CppGenericClassTable.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Il2CppGenericComDefinitions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Il2CppGenericInstDefinitions.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Il2CppGenericMethodDefinitions.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Il2CppGenericMethodPointerTable.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Il2CppGenericMethodTable.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Il2CppInteropDataTable.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Il2CppInvokerTable.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Il2CppMetadataRegistration.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Il2CppMetadataUsage.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Il2CppReversePInvokeWrapperTable.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Il2CppTypeDefinitions.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Mono.Security.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Mono.Security_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/System.Configuration.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/System.Configuration_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/System.Core.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/System.Core_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/System.Diagnostics.StackTrace.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/System.Diagnostics.StackTrace_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/System.Globalization.Extensions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/System.Globalization.Extensions_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/System.Runtime.CompilerServices.Unsafe.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/System.Runtime.CompilerServices.Unsafe_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/System.Runtime.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/System.Runtime_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/System.Xml.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/System.Xml_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/System.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/System1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/System_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Burst.Unsafe.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Burst.Unsafe_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Burst.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Burst_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Collections.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Collections_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Entities.Hybrid.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Entities.Hybrid_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Entities.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Entities1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Entities2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Entities3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Entities4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Entities5.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Entities_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Jobs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Jobs_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Mathematics.Extensions.Hybrid.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Mathematics.Extensions.Hybrid_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Mathematics.Extensions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Mathematics.Extensions_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Mathematics.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Mathematics_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Properties.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Properties_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Rendering.Hybrid.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Rendering.Hybrid1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Rendering.Hybrid_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Scenes.Hybrid.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Scenes.Hybrid_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Serialization.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Serialization_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Transforms.Hybrid.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Transforms.Hybrid_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Transforms.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/Unity.Transforms_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityClassRegistration.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.AnimationModule.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.AnimationModule_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.AssetBundleModule.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.AssetBundleModule_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.AudioModule.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.AudioModule_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.CoreModule.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.CoreModule1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.CoreModule2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.CoreModule_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.GameCenterModule.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.GameCenterModule_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.IMGUIModule.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.IMGUIModule_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.InputLegacyModule.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.InputLegacyModule_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.Physics2DModule.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.Physics2DModule_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.PhysicsModule.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.PhysicsModule_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.SharedInternalsModule.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.SharedInternalsModule_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.TextRenderingModule.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.TextRenderingModule_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.UI.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.UI1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.UI2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.UI3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.UIModule.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.UIModule_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.UI_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.VFXModule.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.VFXModule_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityEngine_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnityICallRegistration.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/UnresolvedVirtualCallStubs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/mscorlib.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/mscorlib1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/mscorlib10.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/mscorlib11.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/mscorlib12.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/mscorlib13.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/mscorlib14.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/mscorlib15.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/mscorlib2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/mscorlib3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/mscorlib4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/mscorlib5.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/mscorlib6.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/mscorlib7.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/mscorlib8.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/mscorlib9.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/mscorlib_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/netstandard.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Native/netstandard_CodeGen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/PLCrashReporter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/PluginBase/AppDelegateListener.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/PluginBase/AppDelegateListener.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/PluginBase/LifeCycleListener.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/PluginBase/LifeCycleListener.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/PluginBase/RenderPluginDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/PluginBase/RenderPluginDelegate.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/PluginBase/UnityViewControllerListener.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/PluginBase/UnityViewControllerListener.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Prefix.pch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Preprocessor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Quaternion4.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/RedefinePlatforms.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/ActivityIndicator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/ActivityIndicator.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/Keyboard.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/Keyboard.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/OrientationSupport.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/OrientationSupport.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/SplashScreen.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/SplashScreen.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/StoreReview.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/UnityAppController+ViewHandling.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/UnityAppController+ViewHandling.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/UnityView+Keyboard.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/UnityView+iOS.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/UnityView+iOS.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/UnityView+tvOS.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/UnityView+tvOS.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/UnityView.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/UnityView.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/UnityViewControllerBase+iOS.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/UnityViewControllerBase+iOS.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/UnityViewControllerBase+tvOS.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/UnityViewControllerBase+tvOS.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/UnityViewControllerBase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UI/UnityViewControllerBase.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UndefinePlatforms.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/AVCapture.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/AVCapture.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/CMVideoSampling.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/CMVideoSampling.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/CVTextureCache.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/CVTextureCache.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/CameraCapture.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/CameraCapture.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/DeviceSettings.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/DisplayManager.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/DisplayManager.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/EAGLContextHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/EAGLContextHelper.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/Filesystem.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/FullScreenVideoPlayer.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/GlesHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/GlesHelper.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/IUnityGraphics.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/IUnityGraphicsMetal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/IUnityInterface.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/InternalProfiler.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/InternalProfiler.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/MetalHelper.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/ObjCRuntime.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/OnDemandResources.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/UnityForwardDecls.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/UnityInterface.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/UnityMetalSupport.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/UnityRendering.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/UnityReplayKit.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/UnityReplayKit.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/UnityReplayKit_Scripting.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/UnitySharedDecls.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/UnityTrampolineCompatibility.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/UnityWebRequest.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/VideoPlayer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/VideoPlayer.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/WWWConnection.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Unity/WWWConnection.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UnityAds/UnityAdsConfig.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UnityAds/UnityAdsUnityWrapper.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UnityAppController+Rendering.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UnityAppController+Rendering.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UnityAppController+UnityInterface.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UnityAppController+UnityInterface.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UnityAppController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UnityAppController.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/UnityTrampolineConfigure.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/Vector3.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/iPhone_Sensors.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/iPhone_Sensors.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Classes/main.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Data/Managed/DotsStripping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Data/Managed/EditorToUnityLinkerData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Data/Managed/Metadata/global-metadata.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Data/Managed/Resources/mscorlib.dll-resources.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Data/Managed/TypesInScenes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Data/Managed/UnityLinkerToEditorData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Data/Managed/mono/4.0/machine.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Data/Resources/unity_builtin_extra" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Data/boot.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Data/globalgamemanagers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Data/globalgamemanagers.assets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Data/level0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Data/resources.assets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Data/sharedassets0.assets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Data/sharedassets0.assets.resS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Data/unity default resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/LaunchScreen-iPad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/LaunchScreen-iPad.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/LaunchScreen-iPhone.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/LaunchScreen-iPhoneLandscape.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/LaunchScreen-iPhonePortrait.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/Il2CppOptions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/RegisterFeatures.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/RegisterFeatures.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/RegisterMonoModules.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/lib_burst_generated.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/lib_burst_generated32.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/lib_burst_generated64.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libiPhone-lib.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/char-conversions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/codegen/il2cpp-codegen-common.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/codegen/il2cpp-codegen-il2cpp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/codegen/il2cpp-codegen-metadata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/codegen/il2cpp-codegen-mono.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/codegen/il2cpp-codegen.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/debugger/il2cpp-c-types.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/debugger/il2cpp-compat.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/gc/Allocator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/gc/AppendOnlyGCHashMap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/gc/GCHandle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/gc/GarbageCollector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/gc/WriteBarrier.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/gc/WriteBarrierValidation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/gc/gc_wrapper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System.Configuration/System.Configuration/InternalConfigurationHost.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System.Core/System.IO.MemoryMappedFiles/MemoryMapImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/Microsoft.Win32/NativeMethods.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/Mono.Net.Security/MonoTlsProviderFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.ComponentModel/Win32Exception.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.Configuration/DefaultConfig.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.Configuration/InternalConfigurationHost.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.Diagnostics/DefaultTraceListener.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.Diagnostics/FileVersionInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.Diagnostics/PerformanceCounter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.Diagnostics/PerformanceCounterCategory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.Diagnostics/PerformanceCounterUtils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.Diagnostics/Process.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.Diagnostics/Stopwatch.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.Diagnostics/perfcounters-def.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.IO/FAMWatcher.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.IO/FileSystemWatcher.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.IO/InotifyWatcher.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.IO/KqueueMonitor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.Net.NetworkInformation/MacOsIPInterfaceProperties.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.Net.Sockets/Socket.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.Net.Sockets/SocketException.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.Net/Dns.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System.Threading/Semaphore.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/System/System/IOSelector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/Mono.Globalization.Unicode/Normalization.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/Mono.Interop/ComInteropProxy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/Mono.Security.Cryptography/KeyPairPersistence.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/Mono.Unity/UnityTls.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/Mono/Runtime.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/Mono/RuntimeClassHandle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/Mono/RuntimeGPtrArrayHandle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/Mono/RuntimeMarshal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/Mono/SafeStringMarshal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Diagnostics/Assert.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Diagnostics/Debugger.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Diagnostics/StackFrame.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Diagnostics/StackTrace.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/CalendarData.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/CompareInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/CompareOptions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/CultureData.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/CultureInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/CultureInfoInternals.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/CultureInfoTables.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/Generated/CultureInfoInternalsNet_4_0.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/Generated/CultureInfoTablesNet_4_0.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Globalization/RegionInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.IO/DriveInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.IO/MonoIO.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.IO/Path.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/AssemblyBuilder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/CustomAttributeBuilder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/DerivedType.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/DynamicMethod.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/EnumBuilder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/GenericTypeParameterBuilder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/MethodBuilder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/ModuleBuilder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/SignatureHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/SymbolType.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection.Emit/TypeBuilder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/Assembly.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/AssemblyName.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/CustomAttributeData.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/EventInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/FieldInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MemberInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MethodBase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/Module.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MonoCMethod.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MonoEventInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MonoField.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MonoGenericCMethod.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MonoGenericClass.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MonoGenericMethod.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MonoMethod.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MonoMethodInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/MonoPropertyInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/ParameterInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/PropertyInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Reflection/RtFieldInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.CompilerServices/RuntimeHelpers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.InteropServices.WindowsRuntime/UnsafeNativeMethods.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.InteropServices/GCHandle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.InteropServices/Marshal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.Remoting.Activation/ActivationServices.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.Remoting.Contexts/Context.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.Remoting.Messaging/AsyncResult.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.Remoting.Messaging/MonoMethodMessage.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.Remoting.Proxies/RealProxy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.Remoting/RemotingServices.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Runtime.Versioning/VersioningHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Security.Cryptography/RNGCryptoServiceProvider.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Security.Policy/Evidence.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Security.Principal/WindowsIdentity.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Security.Principal/WindowsImpersonationContext.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Security.Principal/WindowsPrincipal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Security/SecurityFrame.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Security/SecurityManager.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Text/Encoding.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Text/EncodingHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Text/Normalization.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/Interlocked.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/InternalThread.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/Monitor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/Mutex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/NativeEventCalls.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/OSSpecificSynchronizationContext.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/Thread.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/ThreadPool.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/Timer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System.Threading/WaitHandle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/Activator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/AppDomain.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/ArgIterator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/Array.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/Buffer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/CLRConfig.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/Char.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/ConsoleDriver.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/Convert.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/CurrentSystemTimeZone.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/DateTime.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/Decimal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/Delegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/Double.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/Enum.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/Environment.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/Exception.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/GC.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/Math.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/MissingMemberException.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/MonoCustomAttrs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/MonoType.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/Number.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/NumberFormatter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/Object.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/RuntimeFieldHandle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/RuntimeMethodHandle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/RuntimeType.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/RuntimeTypeHandle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/SizedReference.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/String.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/TimeSpan.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/TimeZoneInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/Type.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/TypedReference.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/ValueType.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/icalls/mscorlib/System/__ComObject.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-api-functions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-api-types.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-benchmark-support.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-blob.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-class-internals.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-config-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-config.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-metadata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-normalization-tables.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-number-formatter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-object-internals.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-pinvoke-support.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-runtime-metadata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-runtime-stats.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-sanitizers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-string-types.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-tabledefs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-tokentype.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-vm-support.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/il2cpp-windowsruntime-types.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/libil2cpp.def" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/libil2cpp.icalls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/metadata/ArrayMetadata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/metadata/FieldLayout.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/metadata/GenericMetadata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/metadata/GenericMethod.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/metadata/GenericSharing.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/metadata/Il2CppGenericClassCompare.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/metadata/Il2CppGenericClassHash.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/metadata/Il2CppGenericContextCompare.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/metadata/Il2CppGenericContextHash.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/metadata/Il2CppGenericInstCompare.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/metadata/Il2CppGenericInstHash.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/metadata/Il2CppGenericMethodCompare.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/metadata/Il2CppGenericMethodHash.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/metadata/Il2CppSignatureCompare.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/metadata/Il2CppSignatureHash.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/metadata/Il2CppTypeCompare.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/metadata/Il2CppTypeHash.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/metadata/Il2CppTypeVector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/mono-runtime/il2cpp-callbacks.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/mono-runtime/il2cpp-mapping.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/mono-runtime/il2cpp-mono-support.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/mono-structs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/mono/MonoPosixHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/mono/ThreadPool/ThreadPoolDataStructures.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/mono/ThreadPool/ThreadPoolMacros.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/mono/ThreadPool/ThreadPoolMonitorThread.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/mono/ThreadPool/ThreadPoolWorkerThread.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/mono/ThreadPool/threadpool-ms-io-poll.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/mono/ThreadPool/threadpool-ms-io.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/mono/ThreadPool/threadpool-ms.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Atomic.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/COM.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/ConditionVariable.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Console.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/CpuInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/CrashHelpers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Cryptography.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Debug.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Directory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Encoding.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Environment.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Error.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/ErrorCodes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Event.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/File.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/FileSystemWatcher.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Generic/SocketImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Handle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Initialize.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/LastError.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/LibraryLoader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Locale.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Lumin/Automation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Lumin/File.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Lumin/Lifecycle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/MarshalAlloc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/MarshalStringAlloc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Memory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/MemoryMappedFile.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Messages.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Mutex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/NativeMethods.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Path.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Posix/AtomicImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Posix/ConditionVariableImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Posix/Error.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Posix/EventImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Posix/FileHandle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Posix/MutexImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Posix/PosixHelpers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Posix/PosixWaitObject.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Posix/ReaderWriterLockImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Posix/SemaphoreImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Posix/SocketImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Posix/ThreadImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Posix/ThreadLocalValueImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Process.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/ReaderWriterLock.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/ReaderWriterLockImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Semaphore.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Socket.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/SocketBridge.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/StackTrace.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Std/ThreadImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/SynchronizationContext.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/SystemCertificates.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Thread.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/ThreadLocalValue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Time.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/TimeZone.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/TimeZoneInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Unity/AtomicNode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Unity/AtomicQueue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Unity/ExtendedAtomicOps-arm.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Unity/ExtendedAtomicOps-arm64-windows.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Unity/ExtendedAtomicOps-arm64.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Unity/ExtendedAtomicOps-clang-gcc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Unity/ExtendedAtomicOps-x86-64.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Unity/ExtendedAtomicOps-x86.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Unity/ExtendedAtomicOps.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Unity/ExtendedAtomicTypes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Unity/UnityPlatformConfigure.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/WaitStatus.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Win32/AtomicImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Win32/ConditionVariableImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Win32/DllMain.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Win32/EventImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Win32/MutexImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Win32/ReaderWriterLockImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Win32/SemaphoreImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Win32/SocketImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Win32/ThreadImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Win32/ThreadLocalValueImpl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Win32/WindowsHeaders.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/Win32/WindowsHelpers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/WinRT/BrokeredFileSystem.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/WinRT/ReferenceCounter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/WinRT/SynchronousOperation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/WinRT/Win32ApiSharedEmulation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/WinRT/Win32ApiWinRTEmulation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/WindowsGames/Win32ApiWindowsGamesEmulation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/WindowsRuntime.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Allocator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Atomic-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/COM-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/ConditionVariable-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Console-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/CpuInfo-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Cryptography-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Debug-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Directory-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Environment-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Error-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Event-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/File-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Handle-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/LibraryLoader-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Locale-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Memory-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/MemoryMappedFile-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Messages-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Mutex-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/NativeMethods-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/OSGlobalEnums.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Path-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Posix/AtomicImpl-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Process-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Semaphore-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Socket-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/SystemCertificates-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Thread-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/ThreadLocalValue-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Time-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/TimeZone-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/TimeZoneInfo-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/WaitStatus-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Win32/AtomicImpl-c-api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/Win32/WindowsHeaders.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/il2cpp-config-api-platforms.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/il2cpp-config-platforms.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/os/c-api/tests/PathHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/CallOnce.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/Collections.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/DirectoryUtils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/Environment.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/Exception.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/Functional.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/HashUtils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/Il2CppHStringReference.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/Il2CppHashMap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/Il2CppHashSet.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/KeyWrapper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/LeaveTargetStack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/Logging.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/MarshalingUtils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/MathUtils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/Memory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/MemoryMappedFile.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/MemoryPool.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/MemoryRead.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/MemoryUtils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/NonCopyable.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/Output.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/PathUtils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/RegisterRuntimeInitializeAndCleanup.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/Runtime.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/StringUtils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/StringView.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/StringViewUtils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/TemplateUtils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/ThreadSafeFreeList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/dynamic_array.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/utf8-cpp/source/utf8.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/utf8-cpp/source/utf8/checked.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/utf8-cpp/source/utf8/core.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/utils/utf8-cpp/source/utf8/unchecked.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm-utils/BlobReader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm-utils/Debugger.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm-utils/NativeDelegateMethodCache.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm-utils/NativeSymbol.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm-utils/VmStringUtils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/ActivationFactoryBase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Array.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Assembly.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/AssemblyName.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Atomic.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/CCW.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/CCWBase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/COM.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/COMEntryPoints.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/CachedCCWBase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Class.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/ClassInlines.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/ComObjectBase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Domain.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Enum.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Event.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Exception.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/GenericClass.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/GenericContainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/InternalCalls.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/LastError.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/LibraryLoader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Liveness.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/MarshalAlloc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/MemoryInformation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/MetadataAlloc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/MetadataCache.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/MetadataLoader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/MetadataLock.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Method.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Module.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Monitor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/NonCachedCCWBase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Object.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Parameter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Path.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/PlatformInvoke.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Profiler.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Property.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/RCW.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Random.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Reflection.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Runtime.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/ScopedThreadAttacher.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/StackTrace.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/String.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Thread.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/ThreadPool.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/ThreadPoolMs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/Type.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/WaitHandle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/WeakReference.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Libraries/libil2cpp/include/vm/WindowsRuntime.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/MainApp/main.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/MapFileParser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/MapFileParser.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Unity-iPhone Tests/Unity-iPhone Tests-Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Unity-iPhone Tests/Unity-iPhone Tests-Prefix.pch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Unity-iPhone Tests/Unity_iPhone_Tests.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Unity-iPhone Tests/en.lproj/InfoPlist.strings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Unity-iPhone.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Unity-iPhone.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Unity-iPhone.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Unity-iPhone.xcodeproj/project.xcworkspace/xcuserdata/zubius.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Unity-iPhone.xcodeproj/xcshareddata/xcschemes/Unity-iPhone.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Unity-iPhone.xcodeproj/xcuserdata/zubius.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Unity-iPhone/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Unity-iPhone/Images.xcassets/AppIcon.appiconset/Icon-iPad-152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Unity-iPhone/Images.xcassets/AppIcon.appiconset/Icon-iPad-167.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Unity-iPhone/Images.xcassets/AppIcon.appiconset/Icon-iPad-76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Unity-iPhone/Images.xcassets/AppIcon.appiconset/Icon-iPhone-120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/Unity-iPhone/Images.xcassets/AppIcon.appiconset/Icon-iPhone-180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/UnityFramework/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/UnityFramework/UnityFramework.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iOS/process_symbols.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/Snake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Snake.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="1251a6e7-12c2-4566-baf2-42ac5b8ba21c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -833,9 +25,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9EF9ECF4-E45C-40C1-8A0D-8E8639F2CF5D/12/18a95b78/InputActionType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2019.4.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E625ACF-973E-482C-A8BB-C7A30DFDABF2/65/c39f83fc/IComponentData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9010F7F7-0F51-4E1D-BC65-6AF34101B87A/83/a60398f3/StateMachineBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
@@ -858,8 +52,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ECS/CellChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/View/GameBoardView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/Snake.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/View/DragController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
       </list>
     </option>
   </component>
@@ -935,70 +129,70 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="432" height="464" key="DebuggerActiveHint/0.23.1680.1027@0.23.1680.1027" timestamp="1598188012048" />
-    <state width="1638" height="373" key="GridCell.Tab.0.bottom" timestamp="1598198687934">
+    <state width="1638" height="373" key="GridCell.Tab.0.bottom" timestamp="1598217973780">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="373" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598198687934" />
-    <state width="1638" height="373" key="GridCell.Tab.0.center" timestamp="1598198687933">
+    <state width="1638" height="373" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598217973780" />
+    <state width="1638" height="373" key="GridCell.Tab.0.center" timestamp="1598217973779">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="373" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598198687933" />
-    <state width="1638" height="373" key="GridCell.Tab.0.left" timestamp="1598198687933">
+    <state width="1638" height="373" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598217973779" />
+    <state width="1638" height="373" key="GridCell.Tab.0.left" timestamp="1598217973779">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="373" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598198687933" />
-    <state width="1638" height="373" key="GridCell.Tab.0.right" timestamp="1598198687934">
+    <state width="1638" height="373" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598217973779" />
+    <state width="1638" height="373" key="GridCell.Tab.0.right" timestamp="1598217973780">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="373" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598198687934" />
-    <state width="1638" height="373" key="GridCell.Tab.1.bottom" timestamp="1598198687936">
+    <state width="1638" height="373" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598217973780" />
+    <state width="1638" height="373" key="GridCell.Tab.1.bottom" timestamp="1598217981111">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="373" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598198687936" />
-    <state width="1638" height="373" key="GridCell.Tab.1.center" timestamp="1598198687935">
+    <state width="1638" height="373" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598217981111" />
+    <state width="1638" height="373" key="GridCell.Tab.1.center" timestamp="1598217981110">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="373" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598198687935" />
-    <state width="1638" height="373" key="GridCell.Tab.1.left" timestamp="1598198687935">
+    <state width="1638" height="373" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598217981110" />
+    <state width="1638" height="373" key="GridCell.Tab.1.left" timestamp="1598217981110">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="373" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598198687935" />
-    <state width="1638" height="373" key="GridCell.Tab.1.right" timestamp="1598198687936">
+    <state width="1638" height="373" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598217981110" />
+    <state width="1638" height="373" key="GridCell.Tab.1.right" timestamp="1598217981111">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="373" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598198687936" />
-    <state width="1638" height="373" key="GridCell.Tab.2.bottom" timestamp="1598198687936">
+    <state width="1638" height="373" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598217981111" />
+    <state width="1638" height="373" key="GridCell.Tab.2.bottom" timestamp="1598217973692">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="373" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598198687936" />
-    <state width="1638" height="373" key="GridCell.Tab.2.center" timestamp="1598198687936">
+    <state width="1638" height="373" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598217973692" />
+    <state width="1638" height="373" key="GridCell.Tab.2.center" timestamp="1598217973692">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="373" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598198687936" />
-    <state width="1638" height="373" key="GridCell.Tab.2.left" timestamp="1598198687936">
+    <state width="1638" height="373" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598217973692" />
+    <state width="1638" height="373" key="GridCell.Tab.2.left" timestamp="1598217973691">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="373" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598198687936" />
-    <state width="1638" height="373" key="GridCell.Tab.2.right" timestamp="1598198687936">
+    <state width="1638" height="373" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598217973691" />
+    <state width="1638" height="373" key="GridCell.Tab.2.right" timestamp="1598217973692">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="373" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598198687936" />
-    <state width="1638" height="373" key="GridCell.Tab.3.bottom" timestamp="1598198687937">
+    <state width="1638" height="373" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598217973692" />
+    <state width="1638" height="373" key="GridCell.Tab.3.bottom" timestamp="1598217973694">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="373" key="GridCell.Tab.3.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598198687937" />
-    <state width="1638" height="373" key="GridCell.Tab.3.center" timestamp="1598198687937">
+    <state width="1638" height="373" key="GridCell.Tab.3.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598217973694" />
+    <state width="1638" height="373" key="GridCell.Tab.3.center" timestamp="1598217973693">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="373" key="GridCell.Tab.3.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598198687937" />
-    <state width="1638" height="373" key="GridCell.Tab.3.left" timestamp="1598198687937">
+    <state width="1638" height="373" key="GridCell.Tab.3.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598217973693" />
+    <state width="1638" height="373" key="GridCell.Tab.3.left" timestamp="1598217973693">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="373" key="GridCell.Tab.3.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598198687937" />
-    <state width="1638" height="373" key="GridCell.Tab.3.right" timestamp="1598198687937">
+    <state width="1638" height="373" key="GridCell.Tab.3.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598217973693" />
+    <state width="1638" height="373" key="GridCell.Tab.3.right" timestamp="1598217973694">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="373" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598198687937" />
+    <state width="1638" height="373" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598217973694" />
     <state x="637" y="245" key="RiderGenerateDialog" timestamp="1598216952874">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -1009,16 +203,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/GameController.cs</url>
-          <line>106</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" initialLine="106">
+          <line>154</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" initialLine="152">
             <startOffsets>
-              <option value="2995" />
+              <option value="4158" />
             </startOffsets>
             <endOffsets>
-              <option value="3046" />
+              <option value="4199" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
