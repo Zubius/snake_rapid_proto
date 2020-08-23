@@ -11,15 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1251a6e7-12c2-4566-baf2-42ac5b8ba21c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Snake.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Snake.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/GameBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GameBoard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/GameCell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GameCell.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/View/GameCellView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/View/GameCellView.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +37,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameCellType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameCell.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameBoard.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/View/GameCellView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/View/GameBoardView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/GameCell.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/Snake.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/GameBoardView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/GameBoard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/GameCellView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
       </list>
     </option>
   </component>
