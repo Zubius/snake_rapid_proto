@@ -11,6 +11,7 @@
             <e p="GameBoard.cs" t="Include" />
             <e p="GameCell.cs" t="Include" />
             <e p="GameCellType.cs" t="Include" />
+            <e p="Snake.cs" t="Include" />
           </e>
           <e p="GameController.cs" t="Include" />
           <e p="View" t="Include">

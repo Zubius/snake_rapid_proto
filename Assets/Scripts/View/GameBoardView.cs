@@ -52,7 +52,7 @@ namespace View
             {
                 for (int j = 0; j < Field.GetLength(1); j++)
                 {
-                    _gameCellRenderers[i, j].SetupCell(Field[i, j].Type != GameCellType.Empty);
+                    _gameCellRenderers[i, j].SetupCell(Field[i, j].Type);
                 }
             }
         }

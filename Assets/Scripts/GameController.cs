@@ -64,6 +64,7 @@ public class GameController : MonoBehaviour
     private void PerformGameTick()
     {
         OnGlobalGameTick?.Invoke();
+        _board.MoveSnake(Vector2.up);
         gameBoardView.SetBoardState(_board.Field);
     }
 }

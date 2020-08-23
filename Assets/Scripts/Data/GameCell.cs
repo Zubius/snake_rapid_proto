@@ -11,4 +11,9 @@ internal struct GameCell
         Position = position;
         Type = type;
     }
+
+    internal void SetPosition(Vector2 position)
+    {
+        Position = position;
+    }
 }
