@@ -11,22 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1251a6e7-12c2-4566-baf2-42ac5b8ba21c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SnakeProto/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameBoard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameBoard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameCell.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameCell.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameCellType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameCellType.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/View.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/View/GameBoardView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/View/GameBoardView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/View/GameCellView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/View/GameCellView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GameBoard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameBoard.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GameBoard.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameCell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GameCell.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameCell.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GameCell.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameCellType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GameCellType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameCellType.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GameCellType.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +49,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/GameController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameField.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameBoard.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameCellType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameCell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameBoard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/GameCellView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/GameBoardView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/GameBoard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
       </list>
     </option>
   </component>
@@ -65,6 +71,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34971997" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29993778" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -80,10 +88,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="3320">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="3320" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -98,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598178610214</updated>
-      <workItem from="1598178613614" duration="1104000" />
+      <workItem from="1598178613614" duration="4565000" />
     </task>
     <servers />
   </component>
@@ -118,5 +126,71 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="373" key="GridCell.Tab.0.bottom" timestamp="1598180726033">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="373" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598180726033" />
+    <state width="1638" height="373" key="GridCell.Tab.0.center" timestamp="1598180726032">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="373" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598180726032" />
+    <state width="1638" height="373" key="GridCell.Tab.0.left" timestamp="1598180726031">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="373" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598180726031" />
+    <state width="1638" height="373" key="GridCell.Tab.0.right" timestamp="1598180726032">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="373" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598180726032" />
+    <state width="1638" height="373" key="GridCell.Tab.1.bottom" timestamp="1598180726033">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="373" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598180726033" />
+    <state width="1638" height="373" key="GridCell.Tab.1.center" timestamp="1598180726033">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="373" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598180726033" />
+    <state width="1638" height="373" key="GridCell.Tab.1.left" timestamp="1598180726033">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="373" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598180726033" />
+    <state width="1638" height="373" key="GridCell.Tab.1.right" timestamp="1598180726033">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="373" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598180726033" />
+    <state width="1638" height="373" key="GridCell.Tab.2.bottom" timestamp="1598180726034">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="373" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598180726034" />
+    <state width="1638" height="373" key="GridCell.Tab.2.center" timestamp="1598180726034">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="373" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598180726034" />
+    <state width="1638" height="373" key="GridCell.Tab.2.left" timestamp="1598180726034">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="373" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598180726034" />
+    <state width="1638" height="373" key="GridCell.Tab.2.right" timestamp="1598180726034">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="373" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598180726034" />
+    <state width="1638" height="373" key="GridCell.Tab.3.bottom" timestamp="1598180726035">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="373" key="GridCell.Tab.3.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598180726035" />
+    <state width="1638" height="373" key="GridCell.Tab.3.center" timestamp="1598180726034">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="373" key="GridCell.Tab.3.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598180726034" />
+    <state width="1638" height="373" key="GridCell.Tab.3.left" timestamp="1598180726034">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="373" key="GridCell.Tab.3.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598180726034" />
+    <state width="1638" height="373" key="GridCell.Tab.3.right" timestamp="1598180726035">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="373" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598180726035" />
   </component>
 </project>
