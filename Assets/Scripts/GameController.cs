@@ -24,6 +24,7 @@ public class GameController : MonoBehaviour
     private float _timePassed = 0;
     private bool _isPaused = false;
     private GameBoard _board;
+    private Vector2 _direction = Vector2.left;
 
     private void Awake()
     {
@@ -52,6 +53,15 @@ public class GameController : MonoBehaviour
     {
         if (!_isPaused)
         {
+            if (Input.GetKeyUp(KeyCode.W))
+                _direction = Vector2.up;
+            else if (Input.GetKeyUp(KeyCode.S))
+                _direction = Vector2.down;
+            else if (Input.GetKeyUp(KeyCode.A))
+                _direction = Vector2.left;
+            else if (Input.GetKeyUp(KeyCode.D))
+                _direction = Vector2.right;
+
             _timePassed += Time.deltaTime;
             if (_timePassed >= gameTickLengthInSec)
             {
@@ -64,7 +74,9 @@ public class GameController : MonoBehaviour
     private void PerformGameTick()
     {
         OnGlobalGameTick?.Invoke();
-        _board.MoveSnake(Vector2.up);
+        var moved = _board.MoveSnake(_direction);
         gameBoardView.SetBoardState(_board.Field);
+
+        if (!moved) _isPaused = true;
     }
 }

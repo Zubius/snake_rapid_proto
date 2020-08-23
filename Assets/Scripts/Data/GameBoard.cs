@@ -29,9 +29,15 @@ internal class GameBoard
         SetTargetOnBoard();
     }
 
-    internal void MoveSnake(Vector2 direction)
+    internal bool MoveSnake(Vector2 direction)
     {
         var nextCellPos = _snake.Head + direction;
+        if (nextCellPos.x < 0 || nextCellPos.x >= Field.GetLength(0) ||
+            nextCellPos.y < 0 || nextCellPos.y >= Field.GetLength(1))
+        {
+            return false;
+        }
+
         var tail = _snake.Tail;
 
         _snake.MoveTo(Field[(int)nextCellPos.x, (int)nextCellPos.y]);
@@ -42,6 +48,12 @@ internal class GameBoard
         {
             Field[(int) tail.x, (int) tail.y].Type = GameCellType.Empty;
         }
+        else
+        {
+            return false;
+        }
+
+        return true;
     }
 
 
