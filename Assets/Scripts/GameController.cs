@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using View;
 
 public class GameController : MonoBehaviour
@@ -17,6 +18,9 @@ public class GameController : MonoBehaviour
     [SerializeField] private Camera camera;
     [SerializeField] private GameObject cube;
     [SerializeField] private GameBoardView gameBoardView;
+    [SerializeField] private Text topScores;
+    [SerializeField] private Text currentScores;
+    [SerializeField] private GameObject pauseUi;
 
     internal event Action OnGlobalGameTick;
     internal static GameController instance;
@@ -39,9 +43,12 @@ public class GameController : MonoBehaviour
         var size = cube.GetComponent<Renderer>().bounds.size.x;
         gameBoardView.InitView(cube, fieldWidth, fieldHeight, size + distance);
 
-        _topScores = PlayerPrefs.GetInt(nameof(_board.TimesScored), 0);
+        _topScores = PlayerPrefs.GetInt(nameof(_topScores), 0);
+        topScores.text = $"Top Scores: {_topScores}";
 
         Restart();
+        SetPause(!_isPaused);
+
 
         if (camera.orthographic)
         {
@@ -77,7 +84,7 @@ public class GameController : MonoBehaviour
         else if (Input.GetKeyUp(KeyCode.D))
             _direction = Vector2.right;
 
-        else if (Input.GetKeyUp(KeyCode.Escape))
+        else if (Input.GetKeyUp(KeyCode.Space))
             SetPause(!_isPaused);
 
         else if (Input.GetKeyUp(KeyCode.R))
@@ -89,33 +96,46 @@ public class GameController : MonoBehaviour
         _board = new GameBoard(fieldWidth, fieldHeight, 3);
         gameBoardView.SetBoardState(_board.Field);
         _isPaused = false;
+        _isEnd = false;
         _timePassed = 0;
+        CheckScores();
+        SetPause(_isPaused);
     }
 
     private void OnDestroy()
     {
-        SaveTopScores();
+        CheckScores();
     }
 
     private void OnApplicationPause(bool pauseStatus)
     {
         if (pauseStatus)
-            SaveTopScores();
+            CheckScores();
     }
 
-    private void SaveTopScores()
+    private int prevScoresValue = -1;
+    private void CheckScores()
     {
         if (_board.TimesScored > _topScores)
         {
-            PlayerPrefs.SetInt(nameof(_board.TimesScored), _board.TimesScored);
+            _topScores = _board.TimesScored;
+            topScores.text = $"Top Scores: {_topScores}";
+            PlayerPrefs.SetInt(nameof(_topScores), _topScores);
             PlayerPrefs.Save();
         }
+
+        if (prevScoresValue < _board.TimesScored)
+        {
+            currentScores.text = $"Scores: {_board.TimesScored}";
+            prevScoresValue = _board.TimesScored;
+        }
+
     }
 
     private void SetPause(bool isPaused)
     {
         _isPaused = isPaused;
-
+        pauseUi.SetActive(_isPaused);
     }
 
     private void PerformGameTick()
@@ -123,7 +143,12 @@ public class GameController : MonoBehaviour
         OnGlobalGameTick?.Invoke();
         var moved = _board.MoveSnake(_direction);
         gameBoardView.SetBoardState(_board.Field);
+        CheckScores();
 
-        if (!moved) _isEnd = true;
+        if (!moved)
+        {
+            _isEnd = true;
+            SetPause(_isEnd);
+        }
     }
 }
