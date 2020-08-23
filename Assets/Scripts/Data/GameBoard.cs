@@ -1,8 +1,9 @@
 
 using System;
-using System.Collections.Generic;
+using System.Linq;
 using Data;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 internal class GameBoard
 {
@@ -87,6 +88,10 @@ internal class GameBoard
 
     private Vector2 GetTargetPosition()
     {
-        return Vector2.zero;
+        var empties = Field.Cast<GameCell>().Where(c => c.Type == GameCellType.Empty &&
+                                                       (_snake.Head - c.Position).sqrMagnitude > 2).ToList();
+
+        var target = empties[Random.Range(0, empties.Count)].Position;
+        return target;
     }
 }
