@@ -1,17 +1,29 @@
+using System.Collections.Generic;
+using System.Linq;
+using ECS;
+using Unity.Collections;
+using Unity.Entities;
+using Unity.Jobs;
+using Unity.Rendering;
+using Unity.Transforms;
 using UnityEngine;
 
 namespace View
 {
     public class GameBoardView : MonoBehaviour
     {
-        private GameCellView[,] _gameCellRenderers;
+        private List<ChangeableObject> _changeableObjects;
+        private EntityManager _entityManager;
 
         private bool _inited = false;
 
         internal void InitView(GameObject protoCell, int x, int y, float dist)
         {
-            _gameCellRenderers = new GameCellView[x, y];
-            var folder = this.transform;
+            _changeableObjects = new List<ChangeableObject>(x * y);
+
+            var settings = GameObjectConversionSettings.FromWorld(World.DefaultGameObjectInjectionWorld, null);
+            _entityManager = World.DefaultGameObjectInjectionWorld.EntityManager;
+            var entity = GameObjectConversionUtility.ConvertGameObjectHierarchy(protoCell, settings);
 
             //center elements infront of camera
             float offset = -1 * x / 2f + 0.5f;
@@ -20,8 +32,14 @@ namespace View
             {
                 for (int j = 0; j < y; j++)
                 {
-                    _gameCellRenderers[i, j] = Instantiate(protoCell, folder).GetComponent<GameCellView>();
-                    _gameCellRenderers[i, j].PositionCell(new Vector2(GetPos(i),  GetPos(j)));
+                    var entityInstance = _entityManager.Instantiate(entity);
+                    _entityManager.SetComponentData(entityInstance, new Translation {Value = new Vector3(GetPos(i),  0, GetPos(j))});
+
+                    _changeableObjects.Add(new ChangeableObject
+                    {
+                        Entity = entityInstance,
+                        Color = Color.white
+                    });
                 }
             }
 
@@ -41,20 +59,48 @@ namespace View
                 return;
             }
 
-            if (Field.GetLength(0) != _gameCellRenderers.GetLength(0) ||
-                Field.GetLength(1) != _gameCellRenderers.GetLength(1))
+            if (Field.Length != _changeableObjects.Count)
             {
                 Debug.LogError($"Different dimensions!");
                 return;
             }
 
-            for (int i = 0; i < Field.GetLength(0); i++)
+            var cells = new NativeArray<GameCell>(_changeableObjects.Count, Allocator.TempJob);
+            var indexes = new NativeArray<int>(_changeableObjects.Count, Allocator.TempJob);
+            var colors = new NativeArray<Color>(_changeableObjects.Count, Allocator.TempJob);
+
+            var field = Field.Cast<GameCell>().ToList();
+
+            for (int i = 0; i < cells.Length; i++)
             {
-                for (int j = 0; j < Field.GetLength(1); j++)
-                {
-                    _gameCellRenderers[i, j].SetupCell(Field[i, j].Type);
-                }
+                cells[i] = field[i];
+                indexes[i] = i;
+                colors[i] = _changeableObjects[i].Color;
             }
+
+            var job = new CellChanger()
+            {
+                Cells = cells,
+                Indexes = indexes,
+                Colors = colors,
+            };
+
+            var jobHandler = job.Schedule(_changeableObjects.Count, 10);
+            jobHandler.Complete();
+
+            for (int i = 0; i < _changeableObjects.Count; i++)
+            {
+                var renderMesh = _entityManager.GetSharedComponentData<RenderMesh>(_changeableObjects[i].Entity);
+                var mat = new UnityEngine.Material(renderMesh.material);
+                mat.SetColor("_Color", colors[i]);
+                renderMesh.material = mat;
+
+                _entityManager.SetSharedComponentData(_changeableObjects[i].Entity, renderMesh);
+            }
+
+            cells.Dispose();
+            colors.Dispose();
+            indexes.Dispose();
         }
     }
 }

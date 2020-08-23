@@ -11,9 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1251a6e7-12c2-4566-baf2-42ac5b8ba21c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ECS.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ECS/CellChanger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ECS/CellChanger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ECS/ChangeableObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ECS/ChangeableObject.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/GameCell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GameCell.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/GameCellType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GameCellType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/View/GameBoardView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/View/GameBoardView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +40,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9EF9ECF4-E45C-40C1-8A0D-8E8639F2CF5D/12/18a95b78/InputActionType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E625ACF-973E-482C-A8BB-C7A30DFDABF2/65/c39f83fc/IComponentData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9010F7F7-0F51-4E1D-BC65-6AF34101B87A/83/a60398f3/StateMachineBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.11.1-preview.4/Unity.Entities/EntityManagerAccessComponentData.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -41,12 +55,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameCellType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameCell.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameBoard.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Data/GameCell.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/Snake.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/View/GameBoardView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/View/GameCellView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/GameBoard.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/test.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ECS/ChangeableObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/GameCell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/GameCellType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ECS/CellChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/GameBoardView.cs" />
       </list>
     </option>
   </component>

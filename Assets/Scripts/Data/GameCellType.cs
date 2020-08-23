@@ -1,5 +1,5 @@
 
-internal enum GameCellType
+public enum GameCellType
 {
     Empty = 0,
     Target = 1,

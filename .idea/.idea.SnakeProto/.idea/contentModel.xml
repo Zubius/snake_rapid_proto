@@ -13,6 +13,10 @@
             <e p="GameCellType.cs" t="Include" />
             <e p="Snake.cs" t="Include" />
           </e>
+          <e p="ECS" t="Include">
+            <e p="CellChanger.cs" t="Include" />
+            <e p="ChangeableObject.cs" t="Include" />
+          </e>
           <e p="GameController.cs" t="Include" />
           <e p="View" t="Include">
             <e p="GameBoardView.cs" t="Include" />
