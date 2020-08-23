@@ -10,6 +10,7 @@ internal class GameBoard
     internal readonly GameCell[,] Field;
     private readonly Snake _snake;
     private Vector2 _snakeDirection = Vector2.zero;
+    private Vector2 _targetPosition;
 
     internal GameBoard(int width, int height, int initSnakeSize)
     {
@@ -28,7 +29,7 @@ internal class GameBoard
             }
         }
 
-        SetTargetOnBoard();
+        PlaceTargetOnBoard();
     }
 
     internal bool MoveSnake(Vector2 direction)
@@ -37,7 +38,8 @@ internal class GameBoard
 
         var nextCellPos = _snake.Head + dir;
         if (nextCellPos.x < 0 || nextCellPos.x >= Field.GetLength(0) ||
-            nextCellPos.y < 0 || nextCellPos.y >= Field.GetLength(1))
+            nextCellPos.y < 0 || nextCellPos.y >= Field.GetLength(1) ||
+            _snake.IsSnake(nextCellPos))
         {
             return false;
         }
@@ -46,15 +48,16 @@ internal class GameBoard
 
         _snake.MoveTo(Field[(int)nextCellPos.x, (int)nextCellPos.y]);
 
+        if (_snake.Head == _targetPosition)
+        {
+            PlaceTargetOnBoard();
+        }
+
         Field[(int) nextCellPos.x, (int) nextCellPos.y].Type = GameCellType.Snake;
 
         if (!_snake.IsSnake(tail))
         {
             Field[(int) tail.x, (int) tail.y].Type = GameCellType.Empty;
-        }
-        else
-        {
-            return false;
         }
 
         _snakeDirection = dir;
@@ -62,10 +65,11 @@ internal class GameBoard
     }
 
 
-    private void SetTargetOnBoard()
+    private void PlaceTargetOnBoard()
     {
         var targetPos = GetTargetPosition();
         Field[(int) targetPos.x, (int) targetPos.y].Type = GameCellType.Target;
+        _targetPosition = targetPos;
     }
 
     private Vector2[] GetSnakeInitCells(int width, int height, int initSnakeSize)
