@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using View;
 
@@ -21,6 +20,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private Text topScores;
     [SerializeField] private Text currentScores;
     [SerializeField] private GameObject pauseUi;
+    [SerializeField] private DragController drags;
 
     internal event Action OnGlobalGameTick;
     internal static GameController instance;
@@ -75,19 +75,30 @@ public class GameController : MonoBehaviour
 
     private void HandleInput()
     {
-        if (Input.GetKeyUp(KeyCode.W))
-            _direction = Vector2.up;
-        else if (Input.GetKeyUp(KeyCode.S))
-            _direction = Vector2.down;
-        else if (Input.GetKeyUp(KeyCode.A))
-            _direction = Vector2.left;
-        else if (Input.GetKeyUp(KeyCode.D))
-            _direction = Vector2.right;
+        // #if UNITY_EDITOR || UNITY_STANDALONE
+        // if (Input.GetKeyUp(KeyCode.W))
+        //     _direction = Vector2.up;
+        // else if (Input.GetKeyUp(KeyCode.S))
+        //     _direction = Vector2.down;
+        // else if (Input.GetKeyUp(KeyCode.A))
+        //     _direction = Vector2.left;
+        // else if (Input.GetKeyUp(KeyCode.D))
+        //     _direction = Vector2.right;
+        //
+        // else if (Input.GetKeyUp(KeyCode.Space))
+        //     SetPause(!_isPaused);
+        //
+        // else if (Input.GetKeyUp(KeyCode.R))
+        //     Restart();
+        // #elif UNITY_IOS || UNITY_ANDROID
+            _direction = drags.Direction;
+        // #endif
+    }
 
-        else if (Input.GetKeyUp(KeyCode.Space))
-            SetPause(!_isPaused);
-
-        else if (Input.GetKeyUp(KeyCode.R))
+    public void StartButtonClicked()
+    {
+        SetPause(false);
+        if (_isEnd)
             Restart();
     }
 
