@@ -111,6 +111,7 @@ public class GameController : MonoBehaviour
         _isPaused = false;
         _isEnd = false;
         _timePassed = 0;
+        prevScoresValue = -1;
         CheckScores();
         SetPause(_isPaused);
     }
