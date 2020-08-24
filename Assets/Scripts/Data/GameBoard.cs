@@ -7,16 +7,36 @@ using Random = UnityEngine.Random;
 
 internal class GameBoard
 {
-    internal readonly GameCell[,] Field;
+    private readonly GameCell[] _field;
+
+    internal GameCell[] Field => _field;
+
+    internal GameCell this[int x] => _field[x];
+
+    internal GameCell this[int x, int y]
+    {
+        get => _field[MapIndex(x, y)];
+        set => _field[MapIndex(x, y)] = value;
+    }
+
+    internal GameCell this[float x, float y]
+    {
+        get => this[(int) x, (int) y];
+        set => this[(int) x, (int) y] = value;
+    }
     internal int TimesScored { get; private set; }
 
     private readonly Snake _snake;
     private Vector2 _snakeDirection = Vector2.zero;
     private Vector2 _targetPosition;
+    private readonly int _width;
+    private readonly int _height;
 
     internal GameBoard(int width, int height, int initSnakeSize)
     {
-        Field = new GameCell[width, height];
+        _width = width;
+        _height = height;
+        _field = new GameCell[width * height];
         TimesScored = 0;
 
         Vector2[] snakeCells = GetSnakeInitCells(width, height, initSnakeSize);
@@ -28,7 +48,7 @@ internal class GameBoard
             {
                 var pos = new Vector2(i, j);
 
-                Field[i, j] = new GameCell(new Vector2(i, j), Array.IndexOf(snakeCells, pos) > -1 ? GameCellType.Snake : GameCellType.Empty);
+                this[i, j] = new GameCell(new Vector2(i, j), Array.IndexOf(snakeCells, pos) > -1 ? GameCellType.Snake : GameCellType.Empty);
             }
         }
 
@@ -40,8 +60,8 @@ internal class GameBoard
         var dir = direction + _snakeDirection == Vector2.zero ? _snakeDirection : direction;
 
         var nextCellPos = _snake.Head + dir;
-        if (nextCellPos.x < 0 || nextCellPos.x >= Field.GetLength(0) ||
-            nextCellPos.y < 0 || nextCellPos.y >= Field.GetLength(1) ||
+        if (nextCellPos.x < 0 || nextCellPos.x >= _width ||
+            nextCellPos.y < 0 || nextCellPos.y >= _height ||
             _snake.IsSnake(nextCellPos))
         {
             return false;
@@ -49,7 +69,7 @@ internal class GameBoard
 
         var tail = _snake.Tail;
 
-        _snake.MoveTo(Field[(int)nextCellPos.x, (int)nextCellPos.y]);
+        _snake.MoveTo(_field[MapIndex(nextCellPos)]);
 
         if (_snake.Head == _targetPosition)
         {
@@ -57,22 +77,36 @@ internal class GameBoard
             PlaceTargetOnBoard();
         }
 
-        Field[(int) nextCellPos.x, (int) nextCellPos.y].Type = GameCellType.Snake;
+        _field[MapIndex(nextCellPos)].Type = GameCellType.Snake;
 
         if (!_snake.IsSnake(tail))
         {
-            Field[(int) tail.x, (int) tail.y].Type = GameCellType.Empty;
+            _field[MapIndex(tail)].Type = GameCellType.Empty;
         }
 
         _snakeDirection = dir;
         return true;
     }
 
+    private int MapIndex(int x, int y)
+    {
+        return x * _width + y;
+    }
+
+    private int MapIndex(float x, float y)
+    {
+        return MapIndex((int)x, (int)y);
+    }
+
+    private int MapIndex(Vector2 pos)
+    {
+        return MapIndex((int)pos.x, (int)pos.y);
+    }
 
     private void PlaceTargetOnBoard()
     {
         var targetPos = GetTargetPosition();
-        Field[(int) targetPos.x, (int) targetPos.y].Type = GameCellType.Target;
+        _field[MapIndex(targetPos)].Type = GameCellType.Target;
         _targetPosition = targetPos;
     }
 
@@ -96,7 +130,7 @@ internal class GameBoard
 
     private Vector2 GetTargetPosition()
     {
-        var empties = Field.Cast<GameCell>().Where(c => c.Type == GameCellType.Empty &&
+        var empties = _field.Where(c => c.Type == GameCellType.Empty &&
                                                        (_snake.Head - c.Position).sqrMagnitude > 2).ToList();
 
         var target = empties[Random.Range(0, empties.Count)].Position;

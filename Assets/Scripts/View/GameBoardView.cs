@@ -51,7 +51,7 @@ namespace View
             }
         }
 
-        internal void SetBoardState(GameCell[,] Field)
+        internal void SetBoardState(GameCell[] Field)
         {
             if (!_inited)
             {
@@ -69,11 +69,9 @@ namespace View
             var indexes = new NativeArray<int>(_changeableObjects.Count, Allocator.TempJob);
             var colors = new NativeArray<Color>(_changeableObjects.Count, Allocator.TempJob);
 
-            var field = Field.Cast<GameCell>().ToList();
-
             for (int i = 0; i < cells.Length; i++)
             {
-                cells[i] = field[i];
+                cells[i] = Field[i];
                 indexes[i] = i;
                 colors[i] = _changeableObjects[i].Color;
             }
