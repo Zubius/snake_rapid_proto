@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1251a6e7-12c2-4566-baf2-42ac5b8ba21c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/GameBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GameBoard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +52,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/GameCellType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ECS/CellChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/View/DragController.cs" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/View/GameBoardView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/Snake.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/GameBoard.cs" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
       </list>
     </option>
   </component>
@@ -79,19 +79,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="5263">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="5263" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="15584">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="15584" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -200,5 +200,9 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="637" y="245" key="RiderGenerateDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1598216952874" />
+    <state x="503" y="248" width="672" height="678" key="search.everywhere.popup" timestamp="1598258474094">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="503" y="248" width="672" height="678" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1598258474094" />
   </component>
 </project>

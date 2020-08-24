@@ -69,7 +69,7 @@ internal class GameBoard
         var dir = direction + _snakeDirection == Vector2.zero ? _snakeDirection : direction;
 
         var nextCellPos = _snake.Head + dir;
-        
+
         if (_passThroughBorder)
         {
             if (nextCellPos.x < 0) nextCellPos = new Vector2(_width - 1, nextCellPos.y);
@@ -86,7 +86,8 @@ internal class GameBoard
             }
         }
 
-        if (IsSnake(this[nextCellPos]))
+        //coz we will move tail on moving snake
+        if (IsSnake(this[nextCellPos]) && !_snake.Tail.Equals(nextCellPos))
         {
             return false;
         }

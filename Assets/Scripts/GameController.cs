@@ -12,7 +12,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private int fieldHeight;
     [SerializeField] private float distance = 0.1f;
     [SerializeField] private int snakeInitSize = 3;
-    [SerializeField] private bool passThroughBorder = false;
+    [SerializeField] private bool passThroughBorder = true;
 
     [Space]
     [Header("References")]
