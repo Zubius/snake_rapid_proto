@@ -21,11 +21,6 @@ namespace Data
             return target.Type == GameCellType.Target;
         }
 
-        internal bool IsSnake(Vector2 pos)
-        {
-            return _cells.Contains(pos);
-        }
-
         internal void MoveTo(GameCell position)
         {
             _cells.AddFirst(position.Position);

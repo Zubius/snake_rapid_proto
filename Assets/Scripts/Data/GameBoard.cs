@@ -24,6 +24,13 @@ internal class GameBoard
         get => this[(int) x, (int) y];
         set => this[(int) x, (int) y] = value;
     }
+
+    internal GameCell this[Vector2 pos]
+    {
+        get => this[(int) pos.x, (int) pos.y];
+        set => this[(int) pos.x, (int) pos.y] = value;
+    }
+
     internal int TimesScored { get; private set; }
 
     private readonly Snake _snake;
@@ -62,14 +69,14 @@ internal class GameBoard
         var nextCellPos = _snake.Head + dir;
         if (nextCellPos.x < 0 || nextCellPos.x >= _width ||
             nextCellPos.y < 0 || nextCellPos.y >= _height ||
-            _snake.IsSnake(nextCellPos))
+            IsSnake(this[nextCellPos]))
         {
             return false;
         }
 
         var tail = _snake.Tail;
 
-        _snake.MoveTo(_field[MapIndex(nextCellPos)]);
+        _snake.MoveTo(this[nextCellPos]);
 
         if (_snake.Head == _targetPosition)
         {
@@ -79,7 +86,7 @@ internal class GameBoard
 
         _field[MapIndex(nextCellPos)].Type = GameCellType.Snake;
 
-        if (!_snake.IsSnake(tail))
+        if (IsSnake(this[tail]))
         {
             _field[MapIndex(tail)].Type = GameCellType.Empty;
         }
@@ -101,6 +108,11 @@ internal class GameBoard
     private int MapIndex(Vector2 pos)
     {
         return MapIndex((int)pos.x, (int)pos.y);
+    }
+
+    private bool IsSnake(GameCell cell)
+    {
+        return cell.Type == GameCellType.Snake;
     }
 
     private void PlaceTargetOnBoard()
