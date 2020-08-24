@@ -38,13 +38,15 @@ internal class GameBoard
     private Vector2 _targetPosition;
     private readonly int _width;
     private readonly int _height;
+    private bool _passThroughBorder = false;
 
-    internal GameBoard(int width, int height, int initSnakeSize)
+    internal GameBoard(int width, int height, int initSnakeSize, bool passThroughBorder = false)
     {
         _width = width;
         _height = height;
         _field = new GameCell[width * height];
         TimesScored = 0;
+        _passThroughBorder = passThroughBorder;
 
         Vector2[] snakeCells = GetSnakeInitCells(width, height, initSnakeSize);
         _snake = new Snake(snakeCells);
@@ -67,9 +69,24 @@ internal class GameBoard
         var dir = direction + _snakeDirection == Vector2.zero ? _snakeDirection : direction;
 
         var nextCellPos = _snake.Head + dir;
-        if (nextCellPos.x < 0 || nextCellPos.x >= _width ||
-            nextCellPos.y < 0 || nextCellPos.y >= _height ||
-            IsSnake(this[nextCellPos]))
+        
+        if (_passThroughBorder)
+        {
+            if (nextCellPos.x < 0) nextCellPos = new Vector2(_width - 1, nextCellPos.y);
+            if (nextCellPos.x >= _width) nextCellPos = new Vector2(0, nextCellPos.y);
+            if (nextCellPos.y < 0) nextCellPos = new Vector2(nextCellPos.x, _height - 1);
+            if (nextCellPos.y >= _height) nextCellPos = new Vector2(nextCellPos.x, 0);
+        }
+        else
+        {
+            if (nextCellPos.x < 0 || nextCellPos.x >= _width ||
+                nextCellPos.y < 0 || nextCellPos.y >= _height)
+            {
+                return false;
+            }
+        }
+
+        if (IsSnake(this[nextCellPos]))
         {
             return false;
         }

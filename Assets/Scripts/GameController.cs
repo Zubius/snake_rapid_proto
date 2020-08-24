@@ -11,6 +11,8 @@ public class GameController : MonoBehaviour
     [SerializeField] private int fieldWidth;
     [SerializeField] private int fieldHeight;
     [SerializeField] private float distance = 0.1f;
+    [SerializeField] private int snakeInitSize = 3;
+    [SerializeField] private bool passThroughBorder = false;
 
     [Space]
     [Header("References")]
@@ -104,7 +106,7 @@ public class GameController : MonoBehaviour
 
     private void Restart()
     {
-        _board = new GameBoard(fieldWidth, fieldHeight, 3);
+        _board = new GameBoard(fieldWidth, fieldHeight, snakeInitSize, passThroughBorder);
         gameBoardView.SetBoardState(_board.Field);
         _isPaused = false;
         _isEnd = false;

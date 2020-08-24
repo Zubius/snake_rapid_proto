@@ -11,9 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1251a6e7-12c2-4566-baf2-42ac5b8ba21c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnakeProto/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/GameBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/GameBoard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/Snake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Snake.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
