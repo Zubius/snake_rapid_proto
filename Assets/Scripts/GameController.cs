@@ -110,6 +110,7 @@ public class GameController : MonoBehaviour
         gameBoardView.SetBoardState(_board.Field);
         _isPaused = false;
         _isEnd = false;
+        _direction = Vector2.left;;
         _timePassed = 0;
         prevScoresValue = -1;
         CheckScores();
